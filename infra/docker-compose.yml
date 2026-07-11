@@ -1,1 +1,16 @@
-
+version: '3'
+services:
+  ctf-box:
+    build: .
+    container_name: ctf_toolkit
+    stdin_open: true # Keeps the container running for interactive shells
+    tty: true
+    volumes:
+      # Mount the project directory so you can edit code on host and run in container
+      - ./../:/ctf-toolkit
+      # Dedicated workspace for downloading CTF files/binaries
+      - ./workspace:/ctf
+    ports:
+      # Map ports if you need to catch reverse shells locally
+      - "4444:4444"
+    network_mode: "host" # Easiest way to interact with local Burp Suite/nc listeners
