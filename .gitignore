@@ -1,1 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
 
+# CTF Specific (Don't leak flags or upload huge binaries)
+*.bin
+*.exe
+*.elf
+flags.txt
+flag.txt
+*.pcap
+
+# Environment & Secrets
+.env
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker workspace
+infra/workspace/
