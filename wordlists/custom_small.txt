@@ -1,1 +1,16 @@
-
+admin
+login
+api
+config
+backup
+dashboard
+test
+dev
+debug
+secret
+flag
+uploads
+download
+.git
+.env
+robots.txt
