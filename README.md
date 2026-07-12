@@ -117,5 +117,6 @@ Built for authorized CTF competitions, bug bounty programs operating within defi
 
 ## Author
 
-**Harshil Makwana** — ECE graduate from SVNIT Surat
+**Harshil Makwana** — ECE graduate from SVNIT Surat, building security tools and looking for a first role in penetration testing, VAPT, or SOC.
+
 [linkedin.com/in/harshilmakwana](https://linkedin.com/in/harshilmakwana) · [github.com/Harshil015](https://github.com/Harshil015)
